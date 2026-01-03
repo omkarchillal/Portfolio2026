@@ -19,10 +19,10 @@ import {
   NDsofttech,
   SYNCinterns,
   crio,
-  carrent,
-  jobit,
   tripguide,
   threejs,
+  messengerApp,
+  weatherApp
 } from "../assets";
 
 export const navLinks = [
@@ -196,9 +196,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Messenger App",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A real-time chat application that enables users to communicate through instant messaging, voice messages, and photo sharing. Built with a focus on performance, security, and seamless user experience, supporting fast and reliable conversations across devices.",
     tags: [
       {
         name: "react",
@@ -213,13 +213,13 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: messengerApp,
+    source_code_link: "https://messenger-app-theta-one.vercel.app/",
   },
   {
-    name: "Job IT",
+    name: "Weather App",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A responsive React.js application that provides real-time weather updates using the OpenWeather API, featuring location-based weather detection, city search, and a 7-day forecast. Includes network type detection to enhance reliability and delivers a smooth experience across devices.",
     tags: [
       {
         name: "react",
@@ -234,16 +234,16 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: weatherApp,
+    source_code_link: "https://omkarchillal.github.io/React_weather_app/",
   },
   {
-    name: "Trip Guide",
+    name: "Crypto Miner",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A React Native crypto mining app with wallet-based passwordless login, real-time mining cycles, configurable rewards, and smooth claim flow. Features monetization via rewarded ads, referrals with bonuses, leaderboards, notifications, and a cloud-hosted admin backend for complete system management.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
