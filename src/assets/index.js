@@ -21,9 +21,8 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
+import NDsofttech from "./company/NDsofttech.png";
+import SYNCinterns from "./company/SYNCinterns.png";
 import crio from "./company/crio.png";
 
 import carrent from "./carrent.png";
@@ -52,9 +51,8 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
+  NDsofttech,
+  SYNCinterns,
   crio,
   carrent,
   jobit,

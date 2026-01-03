@@ -15,10 +15,9 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
+  NDsofttech,
+  SYNCinterns,
   crio,
-  shopify,
   carrent,
   jobit,
   tripguide,
@@ -116,56 +115,50 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "React.js Intern",
+    company_name: "SYNC interns",
+    icon: SYNCinterns,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "March 2023 - April 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed 5+ dynamic, responsive web pages using React.js, improving load performance by 25%.",
+      "Refactored React components to achieve 15% faster rendering and enhanced scalability across modules.",
+      "Implemented state management using Hooks and Context API, reducing redundant code by 20%.",
+      "Optimized UI responsiveness across devices, ensuring 100% cross-browser compatibility.",
+      "Collaborated with a team of developers in Agile sprints, reducing bug resolution time by 30%.",
+      "Enhanced application accessibility and usability, leading to a 20% improvement in user experience ratings based on user feedback."
     ],
+
   },
   {
     title: "Software Development Intern",
     company_name: "Crio.Do",
     icon: crio,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "February 2024 - January 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Built industry-grade full-stack and frontend applications using modern JavaScript and React.",
+      "Developed QTIFY using React.js with advanced UI features and a modular CSS architecture.",
+      "Created QKart Frontend implementing form handling, controlled components, and robust REST API integration.",
+      "Built multiple responsive applications including XBoard, QTripDynamic, QTripStatic, XCruise, and XProfile using HTML, CSS, Bootstrap, and JavaScript.",
+      "Strengthened expertise in React Hooks, state management, API interaction, responsive design, and modern UI best practices."
     ],
+
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "SDE Trainee",
+    company_name: "NDsofttech Solutions",
+    icon: NDsofttech,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "October 2025 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed a major MERN Stack Messenger App implementing real-time communication using Socket.IO, user authentication, and media sharing features.",
+      "Built a Crypto Miner Android application using React Native, focusing on performance optimization and responsive UI.",
+      "Developed the 'Age of Swords' React Native game by adapting an existing web-based game into a high-performance mobile version.",
+      "Created the Android game 'Tap the Number in Sequence' using React Native, implementing complete game logic and interactive UI components.",
+      "Gained strong experience in full-stack integration, mobile app development, and production-level project delivery."
     ],
+
   },
 ];
 
