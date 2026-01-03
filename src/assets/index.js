@@ -28,6 +28,7 @@ import crio from "./company/crio.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import firebase from "./tech/firebase.png";
 
 export {
   logo,
@@ -57,4 +58,5 @@ export {
   carrent,
   jobit,
   tripguide,
+  firebase,
 };
