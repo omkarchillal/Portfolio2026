@@ -212,6 +212,18 @@ const projects = [
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "firebase",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "nodeJS",
+        color: "violet-text-gradient",
+      },
+      {
+        name: "Socket.io",
+        color: "orange-text-gradient",
+      },
     ],
     image: messengerApp,
     source_code_link: "https://messenger-app-theta-one.vercel.app/",
@@ -226,12 +238,16 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "NetworkInformationAPI",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
-        color: "pink-text-gradient",
+        name: "OpenWeatherAPI",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "GeoDB",
+        color: "violet-text-gradient",
       },
     ],
     image: weatherApp,
@@ -243,16 +259,24 @@ const projects = [
       "A React Native crypto mining app with wallet-based passwordless login, real-time mining cycles, configurable rewards, and smooth claim flow. Features monetization via rewarded ads, referrals with bonuses, leaderboards, notifications, and a cloud-hosted admin backend for complete system management.",
     tags: [
       {
-        name: "react",
+        name: "react native",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "nodeJS",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "mongoDB",
         color: "pink-text-gradient",
+      },
+      {
+        name: "googleads",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "notifee",
+        color: "violet-text-gradient",
       },
     ],
     image: tripguide,
