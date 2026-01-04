@@ -1,6 +1,8 @@
 import { BrowserRouter } from "react-router-dom";
+import { Toaster } from "react-hot-toast";
 
 import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -19,6 +21,8 @@ const App = () => {
           <Contact />
           <StarsCanvas />
         </div>
+        <Footer />
+        <Toaster />
       </div>
     </BrowserRouter>
   );
