@@ -6,7 +6,7 @@ import { socialLinks } from "../constants";
 const Footer = () => {
     return (
         <footer className={`${styles.paddingX} w-full flex flex-col md:flex-row justify-between items-center py-6 bg-primary border-t border-t-[#1f1f38]`}>
-            <div className="flex flex-col md:mr-4 mb-4 md:mb-0">
+            <div className="flex flex-col items-center md:flex-row md:gap-4 md:mr-4 mb-4 md:mb-0">
                 <div className="flex items-center gap-2">
                     <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
                     <p className='text-white text-[18px] font-bold cursor-pointer flex '>
