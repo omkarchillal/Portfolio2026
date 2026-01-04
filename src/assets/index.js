@@ -20,15 +20,15 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import firebase from "./tech/firebase.png";
 
+import crio from "./company/crio.png";
 import NDsofttech from "./company/NDsofttech.png";
 import SYNCinterns from "./company/SYNCinterns.png";
-import crio from "./company/crio.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
+import messengerApp from "./messengerApp.png";
+import weatherApp from "./weatherApp.png";
 import tripguide from "./tripguide.png";
-import firebase from "./tech/firebase.png";
 
 export {
   logo,
@@ -55,8 +55,8 @@ export {
   NDsofttech,
   SYNCinterns,
   crio,
-  carrent,
-  jobit,
+  messengerApp,
+  weatherApp,
   tripguide,
   firebase,
 };
