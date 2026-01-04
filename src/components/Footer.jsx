@@ -29,10 +29,11 @@ const Footer = () => {
                         className="w-10 h-10 rounded-full bg-tertiary flex justify-center items-center cursor-pointer hover:bg-[#915eff] transition-colors"
                         title={link.name}
                     >
-                        {/* Simple icon fallback using text first letter if no icon provided later */}
-                        <span className="font-bold text-white">
-                            {link.name.startsWith("Git") ? "GH" : link.name.startsWith("Link") ? "IN" : link.name[0]}
-                        </span>
+                        <img
+                            src={link.icon}
+                            alt={link.name}
+                            className="w-3/5 h-3/5 object-contain"
+                        />
                     </a>
                 ))}
             </div>

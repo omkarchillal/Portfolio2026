@@ -22,7 +22,9 @@ import {
   tripguide,
   threejs,
   messengerApp,
-  weatherApp
+  weatherApp,
+  github,
+  linkedin
 } from "../assets";
 
 export const navLinks = [
@@ -43,12 +45,12 @@ export const navLinks = [
 export const socialLinks = [
   {
     name: "GitHub",
-    icon: "github", // We will handle the icon import/mapping in the component
+    icon: github,
     url: "https://github.com/omkarchillal",
   },
   {
     name: "LinkedIn",
-    icon: "linkedin",
+    icon: linkedin,
     url: "https://www.linkedin.com/in/omkarchillal21/",
   },
 ];

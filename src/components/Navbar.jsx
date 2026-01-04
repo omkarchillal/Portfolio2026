@@ -58,6 +58,16 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
+          <li className="text-[18px] font-medium cursor-pointer">
+            <a
+              href="/FullStack_and_Mobile_developer_Omkar_Chillal_resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-[#915eff] text-white px-4 py-2 rounded-md hover:bg-[#804dee] transition-colors"
+            >
+              Resume
+            </a>
+          </li>
         </ul>
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>
@@ -86,6 +96,16 @@ const Navbar = () => {
                   <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
+              <li className="font-poppins font-medium cursor-pointer text-[16px]">
+                <a
+                  href="/resume.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-[#915eff] text-white px-4 py-2 rounded-md block text-center"
+                >
+                  Resume
+                </a>
+              </li>
             </ul>
           </div>
         </div>
