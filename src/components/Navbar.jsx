@@ -81,9 +81,9 @@ const Navbar = () => {
           <AnimatePresence>
             {toggle && (
               <motion.div
-                initial={{ x: "-100%" }}
+                initial={{ x: "100%" }}
                 animate={{ x: 0 }}
-                exit={{ x: "-100%" }}
+                exit={{ x: "100%" }}
                 transition={{ type: "tween", duration: 0.3 }}
                 className={`fixed inset-0 z-10 bg-primary flex flex-col items-center justify-center`}
               >
