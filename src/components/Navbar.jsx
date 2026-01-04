@@ -81,11 +81,12 @@ const Navbar = () => {
           <AnimatePresence>
             {toggle && (
               <motion.div
-                initial={{ clipPath: "circle(30px at calc(100% - 45px) 45px)" }}
-                animate={{ clipPath: "circle(150% at calc(100% - 45px) 45px)" }}
-                exit={{ clipPath: "circle(30px at calc(100% - 45px) 45px)" }}
-                transition={{ duration: 0.5, ease: "easeInOut" }}
-                className={`fixed inset-4 z-30 bg-[#101010] flex flex-col p-8 rounded-3xl shadow-2xl`}
+                initial={{ scale: 0, opacity: 0 }}
+                animate={{ scale: 1, opacity: 1 }}
+                exit={{ scale: 0, opacity: 0 }}
+                transition={{ duration: 0.3, ease: "easeInOut" }}
+                style={{ transformOrigin: "top right" }}
+                className={`fixed inset-4 z-30 bg-primary flex flex-col p-8 rounded-3xl shadow-[0_0_40px_-5px_rgba(255,255,255,0.2)]`}
               >
                 {/* Close Button Area */}
                 <div className="w-full flex justify-end mb-8">
