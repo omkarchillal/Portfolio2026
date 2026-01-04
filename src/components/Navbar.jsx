@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
+import { AnimatePresence, motion } from "framer-motion";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -58,6 +58,16 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
+          <li className="text-[18px] font-medium cursor-pointer">
+            <a
+              href="/FullStack_and_Mobile_developer_Omkar_Chillal_resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-[#915eff] text-white px-4 py-2 rounded-md hover:bg-[#804dee] transition-colors"
+            >
+              Resume
+            </a>
+          </li>
         </ul>
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>
@@ -68,26 +78,53 @@ const Navbar = () => {
             onClick={() => setToggle(!toggle)}
           />
 
-          <div
-            className={`${!toggle ? "hidden" : "flex"
-              } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
-          >
-            <ul className='list-none flex justify-end items-start flex-1 flex-col gap-4'>
-              {navLinks.map((nav) => (
-                <li
-                  key={nav.id}
-                  className={`font-poppins font-medium cursor-pointer text-[16px] ${active === nav.title ? "text-white" : "text-secondary"
-                    }`}
-                  onClick={() => {
-                    setToggle(!toggle);
-                    setActive(nav.title);
-                  }}
-                >
-                  <a href={`#${nav.id}`}>{nav.title}</a>
-                </li>
-              ))}
-            </ul>
-          </div>
+          <AnimatePresence>
+            {toggle && (
+              <motion.div
+                initial={{ x: "100%" }}
+                animate={{ x: 0 }}
+                exit={{ x: "100%" }}
+                transition={{ type: "tween", duration: 0.3 }}
+                className={`fixed inset-0 z-10 bg-primary flex flex-col items-center justify-center`}
+              >
+                {/* Added a close button inside the menu since it's full screen now */}
+                <div className="absolute top-6 right-6">
+                  <img
+                    src={close}
+                    alt='close'
+                    className='w-[28px] h-[28px] object-contain cursor-pointer'
+                    onClick={() => setToggle(!toggle)}
+                  />
+                </div>
+
+                <ul className='list-none flex justify-center items-center flex-col gap-8'>
+                  {navLinks.map((nav) => (
+                    <li
+                      key={nav.id}
+                      className={`font-poppins font-bold cursor-pointer text-[24px] ${active === nav.title ? "text-white" : "text-secondary"
+                        }`}
+                      onClick={() => {
+                        setToggle(!toggle);
+                        setActive(nav.title);
+                      }}
+                    >
+                      <a href={`#${nav.id}`}>{nav.title}</a>
+                    </li>
+                  ))}
+                  <li className="font-poppins font-bold cursor-pointer text-[24px]">
+                    <a
+                      href="/FullStack_and_Mobile_developer_Omkar_Chillal_resume.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="bg-[#915eff] text-white px-8 py-3 rounded-xl hover:bg-[#804dee] transition-colors"
+                    >
+                      Resume
+                    </a>
+                  </li>
+                </ul>
+              </motion.div>
+            )}
+          </AnimatePresence>
         </div>
       </div>
     </nav>
