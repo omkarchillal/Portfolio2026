@@ -3,6 +3,7 @@ import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
+import live from "./live.png";
 import github from "./github.png";
 import linkedin from "./linkedin.png";
 import menu from "./menu.svg";
@@ -30,6 +31,7 @@ import SYNCinterns from "./company/SYNCinterns.png";
 import messengerApp from "./messengerApp.png";
 import weatherApp from "./weatherApp.png";
 import tripguide from "./tripguide.png";
+import cryptominerApp from "./cryptominerApp.png";
 
 export {
   logo,
@@ -37,6 +39,7 @@ export {
   creator,
   mobile,
   web,
+  live,
   github,
   menu,
   close,
@@ -59,6 +62,7 @@ export {
   messengerApp,
   weatherApp,
   tripguide,
+  cryptominerApp,
   firebase,
   linkedin,
 };
