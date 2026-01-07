@@ -30,6 +30,7 @@ import SYNCinterns from "./company/SYNCinterns.png";
 import messengerApp from "./messengerApp.png";
 import weatherApp from "./weatherApp.png";
 import tripguide from "./tripguide.png";
+import cryptominerApp from "./cryptominerApp.png";
 
 export {
   logo,
@@ -59,6 +60,7 @@ export {
   messengerApp,
   weatherApp,
   tripguide,
+  cryptominerApp,
   firebase,
   linkedin,
 };

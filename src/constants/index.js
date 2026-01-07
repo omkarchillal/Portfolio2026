@@ -23,6 +23,7 @@ import {
   threejs,
   messengerApp,
   weatherApp,
+  cryptominerApp,
   github,
   linkedin
 } from "../assets";
@@ -296,7 +297,7 @@ const projects = [
         color: "violet-text-gradient",
       },
     ],
-    image: tripguide,
+    image: cryptominerApp,
     source_code_link: "https://github.com/",
   },
 ];
