@@ -298,7 +298,7 @@ const projects = [
       },
     ],
     image: cryptominerApp,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://drive.google.com/drive/folders/1asWGPZYjJayVqHHFTsTBZO_2tG7Vj4Uo",
   },
 ];
 

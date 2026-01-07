@@ -3,6 +3,7 @@ import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
+import live from "./live.png";
 import github from "./github.png";
 import linkedin from "./linkedin.png";
 import menu from "./menu.svg";
@@ -38,6 +39,7 @@ export {
   creator,
   mobile,
   web,
+  live,
   github,
   menu,
   close,
